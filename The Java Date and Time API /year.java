@@ -1,6 +1,6 @@
 import java.time.Year;
 
-public class year {
+public class Event {
     private int year;
 
     // Constructor
@@ -17,8 +17,7 @@ public class year {
     public void setYear(int year) {
         this.year = year;
     }
-}
-  
+
     public static void main(String[] args) {
         // Get the current year
         Year currentYear = Year.now();

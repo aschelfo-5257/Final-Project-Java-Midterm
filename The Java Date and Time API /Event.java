@@ -6,7 +6,6 @@ import java.time.Year;
  * Demonstrates usage of the {@link java.time.Year} class for basic year operations.
  * </p>
  *
- * @author Your Name
  */
 public class Event {
     private int year;

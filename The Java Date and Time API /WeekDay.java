@@ -3,8 +3,11 @@ import java.time.DayOfWeek;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
+/**
+ * Demonstrates how to get and display the current day of the week
+ * in various formats using Java's Date and Time API.
+ */
 public class WeekDay {
-
     public static void main(String[] args) {
         LocalDate today = LocalDate.now(); // Get the current date
 
@@ -16,7 +19,7 @@ public class WeekDay {
         int dayValue = dayOfWeek.getValue();
         System.out.println("Day of Week (value): " + dayValue);
 
-        // Get the full name of the day of the week for a specific locale
+        // Get the full name of the day of the week for the default locale
         String fullDayName = dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault());
         System.out.println("Day of Week (full name): " + fullDayName);
 

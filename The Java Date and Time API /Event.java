@@ -1,19 +1,39 @@
 import java.time.Year;
 
+/**
+ * Represents an event with an associated year.
+ * <p>
+ * Demonstrates usage of the {@link java.time.Year} class for basic year operations.
+ * </p>
+ *
+ * @author Your Name
+ */
 public class Event {
     private int year;
 
-    // Constructor
+    /**
+     * Constructs an Event with the specified year.
+     *
+     * @param year the year of the event
+     */
     public Event(int year) {
         this.year = year;
     }
 
-    // Getter method for year
+    /**
+     * Returns the year of this event.
+     *
+     * @return the year of the event
+     */
     public int getYear() {
         return this.year;
     }
 
-    // Setter method for year
+    /**
+     * Sets the year for this event.
+     *
+     * @param year the year to set
+     */
     public void setYear(int year) {
         this.year = year;
     }

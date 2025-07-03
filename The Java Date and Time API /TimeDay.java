@@ -2,6 +2,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class TimeDay {
+    private static final String DATE_TIME_PATTERN = "EEEE, MMMM dd, yyyy HH:mm:ss";
+
     public static void main(String[] args) {
         // Get the current date and time
         LocalDateTime currentDateTime = LocalDateTime.now();
@@ -16,7 +18,7 @@ public class TimeDay {
         * "mm" for minute (e.g., "30")
         * "ss" for second (e.g., "00")
         */
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_TIME_PATTERN);
 
         // Format and print the current date and time
         String formattedDateTime = currentDateTime.format(formatter);

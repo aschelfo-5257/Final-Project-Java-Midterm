@@ -8,5 +8,9 @@ public class DaysOfWeek {
         return "Invalid day";
     }
     return days[numberOfDay - 1];
+    /**
+     * Returns the name of the day for a given number (1=Sunday, ..., 7=Saturday).
+     * @param numberOfDay the day number (1-7)
+     * @return the name of the day, or "Invalid day" if out of range
+     */
 }
-    

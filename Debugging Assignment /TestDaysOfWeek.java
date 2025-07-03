@@ -1,4 +1,9 @@
-import daysAndDates.DaysOfWeek;
+// Demonstrates mapping numbers 1-7 to days of the week
+// import daysAndDates.DaysOfWeek;
+// import DaysOfWeek; // Removed incorrect import
+
+// If DaysOfWeek is in a package, use the correct import, e.g.:
+// import daysAndDates.DaysOfWeek;
 
 public class TestDaysOfWeek {
 

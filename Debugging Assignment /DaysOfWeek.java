@@ -1,5 +1,3 @@
-package daysAndDates;
-
 /**
  * Utility class for converting numbers to day names.
  */

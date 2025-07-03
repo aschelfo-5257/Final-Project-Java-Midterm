@@ -4,7 +4,7 @@ import java.time.format.TextStyle;
 import java.util.Locale;
 
 /**
- * Demonstrates how to get and display the current day of the week
+ * The WeekDay class demonstrates how to get and display the current day of the week
  * in various formats using Java's Date and Time API.
  */
 public class WeekDay {

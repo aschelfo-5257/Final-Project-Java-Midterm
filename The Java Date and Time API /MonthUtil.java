@@ -38,7 +38,7 @@ public class MonthUtil {
     /**
      * Demonstrates the use of both dynamic and hardcoded month name retrieval methods.
      *
-     * @param args command-line arguments (not used)
+     * @param args command-line arguments
      */
     public static void main(String[] args) {
         System.out.println("Month Names (From Enum):");
@@ -49,6 +49,14 @@ public class MonthUtil {
         System.out.println("\nMonth Names (Hardcoded):");
         for (String month : getHardcodedMonthNames()) {
             System.out.println(month);
+        }
+
+        // Demonstrate usage of args parameter
+        if (args.length > 0) {
+            System.out.println("\nArguments passed to main:");
+            for (String arg : args) {
+                System.out.println(arg);
+            }
         }
     }
 }
